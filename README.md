@@ -40,19 +40,21 @@ knowledge distributed at various places on the Internet, but particularly in
 the Denial forums (http://sleepingelephant.com/denial/). Thanks to all those
 responsible for the above.
 
+## Building 
+
+Ensure you populate the exomizer submodule after cloning and call make in exomizer/exomizer2/src. 
+Then change into Fickle's src folder and call make there.
+All going well, you will have a usable Fickle.prg.
+
 ## Legals, Source code, Cloning, etc
 Please distribute and enjoy Fickle.
 
 The main Fickle source code can be used and distributed under the terms of the
 GNU Affero General Public License v3.0. However, to build Fickle requires the use of
 the Exomizer 2 compressor and the exodecrunch decompressor. These are copyright
-Magnus Lind, and have a different Free Software license (see the copyright
-notice in the header of the exodecrunch.s file). I made some trivial
-modifications to exodecrunch.s, which are marked with "MALX". The tools folder
-includes a version of the exomizer program for Linux. If you want to build
-Fickle on other platforms, you'll need to obtain a compatible version of
-exomizer. See:
-http://hem.bredband.net/magli143/exo/
+Magnus Lind, and have a different Free Software license. Since Fickle requires a modified
+version of that project, I forked it in GitHub, and this project uses it a submodule.
+The modifications to that project (which are very minor) are marked with "MALX".
 
 To my knowledge, Fickle's game mechanic is original. Please clone it if you'd
 like, but I'd appreciate a credit for the design. The levels are copyright me,
@@ -63,4 +65,3 @@ Enjoy,
 
 Malcolm
 Malcolm.R.Tyrrell@gmail.com
-
