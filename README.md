@@ -42,6 +42,10 @@ responsible for the above.
 
 ## Building 
 
+Requirements:
+* Building exomizer requires a C compiler and Yacc/Bison.
+* Fickle itself is build with tools from the CC65 compiler suite (specifically ca65 and ld65).
+
 Ensure you populate the exomizer submodule after cloning and call make in exomizer/exomizer2/src. 
 Then change into Fickle's src folder and call make there.
 All going well, you will have a usable Fickle.prg.
